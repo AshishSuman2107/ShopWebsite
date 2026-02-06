@@ -1,0 +1,76 @@
+📧 EmailJS Setup Instructions for Newsletter Confirmation
+=========================================================
+
+Follow these steps to enable email confirmation:
+
+1. CREATE FREE EMAILJS ACCOUNT
+   - Go to: https://www.emailjs.com/
+   - Click "Sign Up" (FREE account)
+   - Verify your email
+
+2. ADD EMAIL SERVICE
+   - Login to EmailJS Dashboard
+   - Go to "Email Services" 
+   - Click "Add New Service"
+   - Choose Gmail/Outlook/Yahoo (your email)
+   - Connect your email account
+   - Note the SERVICE ID (e.g., "service_abc123")
+
+3. CREATE EMAIL TEMPLATE
+   - Go to "Email Templates"
+   - Click "Create New Template"
+   - Template Name: "Newsletter Subscription"
+   - Use this template:
+   
+   Subject: Welcome to Har Har Mahadev Enterprises Newsletter! 🙏
+   
+   Body:
+   Hello {{to_name}},
+   
+   Thank you for subscribing to our newsletter!
+   
+   {{message}}
+   
+   You will receive:
+   ✅ New product updates
+   ✅ Special offers & discounts
+   ✅ Exclusive deals
+   
+   Best regards,
+   {{from_name}}
+   
+   Contact: +91 9026653257
+   Email: vinodprajapati994500@gmail.com
+   
+   - Save the template
+   - Note the TEMPLATE ID (e.g., "template_xyz789")
+
+4. GET PUBLIC KEY
+   - Go to "Account" → "General"
+   - Copy your PUBLIC KEY (e.g., "AbC123XyZ")
+
+5. UPDATE CODE
+   Open vijay.html and replace:
+   - Line 10: Replace "YOUR_PUBLIC_KEY" with your actual public key
+   
+   Open script.js and replace:
+   - Line 109: Replace "YOUR_SERVICE_ID" with your service ID
+   - Line 110: Replace "YOUR_TEMPLATE_ID" with your template ID
+
+6. TEST
+   - Open your website
+   - Enter an email in newsletter form
+   - Click Subscribe
+   - Check email inbox (and spam folder)
+
+IMPORTANT NOTES:
+- Free plan: 200 emails/month
+- Emails may take 1-2 minutes to arrive
+- Check spam folder if email doesn't arrive
+- Keep your keys secure!
+
+Example Configuration:
+emailjs.init("AbC123XyZ");  // Your Public Key
+emailjs.send("service_abc123", "template_xyz789", {...});
+
+For support: https://www.emailjs.com/docs/

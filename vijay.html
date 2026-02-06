@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Har Har Mahadev Enterprises - Premium Tiles, Marble & Hardware Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top Info Bar -->
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <div class="top-bar-left">
+        <div class="top-bar-item">
+          <i class="fas fa-phone"></i>
+          <span>+91 9026653257</span>
+        </div>
+        <div class="top-bar-item">
+          <i class="fas fa-envelope"></i>
+          <span>vinodprajapati994500@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <div class="logo-section">
+        <div class="logo-icon">🕉️</div>
+        <h1>Har Har Mahadev Enterprises <span>Premium Building Materials & Hardware</span></h1>
+      </div>
+      <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#tiles">Tiles & Marble</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-slider">
+      <div class="hero-slide" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1920&q=80') center/cover;">
+        <div class="hero-content">
+          <h2 class="hero-title">Har Har Mahadev Enterprises</h2>
+          <p class="hero-subtitle">Premium Tiles, Marble & Hardware Solutions</p>
+          <div class="hero-badges">
+            <div class="badge">
+              <i class="fas fa-certificate"></i>
+              <span>100% Genuine Products</span>
+            </div>
+            <div class="badge">
+              <i class="fas fa-award"></i>
+              <span>Authorized Dealer</span>
+            </div>
+            <div class="badge">
+              <i class="fas fa-shield-alt"></i>
+              <span>Full Warranty</span>
+            </div>
+          </div>
+          <div class="cta-buttons">
+            <a href="#tiles" class="cta-button primary">Explore Collection</a>
+            <a href="#contact" class="cta-button secondary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories-showcase" id="categories">
+    <div class="container">
+      <div class="section-title">
+        <h3>Explore Our Collections</h3>
+        <p>Discover premium quality tiles, marble, and building materials for your dream space</p>
+      </div>
+      <div class="categories-grid">
+        <div class="category-box">
+          <div class="category-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=600&q=80" alt="Vitrified Tiles">
+            <div class="category-overlay">
+              <h4>Vitrified Tiles</h4>
+              <p>Premium Quality 600x600mm, 800x800mm</p>
+              <a href="#tiles" class="category-link">View Collection <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="category-box">
+          <div class="category-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=600&q=80" alt="Marble">
+            <div class="category-overlay">
+              <h4>Italian Marble</h4>
+              <p>Imported & Indian Premium Finish</p>
+              <a href="#tiles" class="category-link">View Collection <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="category-box">
+          <div class="category-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?w=600&q=80" alt="Wall Tiles">
+            <div class="category-overlay">
+              <h4>Designer Wall Tiles</h4>
+              <p>Glossy & Matt Finish Collection</p>
+              <a href="#tiles" class="category-link">View Collection <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="category-box">
+          <div class="category-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&q=80" alt="Bathroom">
+            <div class="category-overlay">
+              <h4>Sanitary Ware</h4>
+              <p>Premium Bathroom Solutions</p>
+              <a href="#products" class="category-link">View Collection <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tiles Brands Section -->
+  <section class="tiles-brands" id="tiles">
+    <div class="container">
+      <div class="section-title">
+        <h3>Premium Tiles & Marble Brands</h3>
+        <p>Authorized dealer of India's top tiles and marble brands</p>
+      </div>
+      <div class="brands-showcase">
+        <div class="brand-item">
+          <a href="https://www.kajariaceramics.com/" target="_blank">
+            <div class="brand-image-box">
+              <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=400&q=80" alt="Kajaria">
+              <div class="brand-hover">
+                <h5>Kajaria Ceramics</h5>
+                <p>India's No.1 Tiles Brand</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="brand-item">
+          <a href="https://www.somanyceramics.com/" target="_blank">
+            <div class="brand-image-box">
+              <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=400&q=80" alt="Somany">
+              <div class="brand-hover">
+                <h5>Somany Ceramics</h5>
+                <p>Designer Tiles Collection</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="brand-item">
+          <a href="https://www.protontiles.com/" target="_blank">
+            <div class="brand-image-box">
+              <img src="https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?w=400&q=80" alt="Proton Tiles">
+              <div class="brand-hover">
+                <h5>Proton Tiles</h5>
+                <p>Premium Vitrified Tiles</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="brand-item">
+          <a href="https://www.orientbell.com/" target="_blank">
+            <div class="brand-image-box">
+              <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&q=80" alt="Orientbell">
+              <div class="brand-hover">
+                <h5>Orientbell Tiles</h5>
+                <p>Modern Designer Tiles</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Tiles Gallery Grid -->
+      <div class="tiles-gallery-grid">
+        <div class="gallery-tile large">
+          <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=800&q=80" alt="Vitrified Tiles">
+          <div class="tile-details">
+            <h5>Vitrified Tiles</h5>
+            <p>600x600mm | 800x800mm</p>
+            <span class="price-tag">From ₹45/sq.ft</span>
+          </div>
+        </div>
+        <div class="gallery-tile">
+          <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=500&q=80" alt="Marble Look">
+          <div class="tile-details">
+            <h5>Marble Look Tiles</h5>
+            <p>600x1200mm</p>
+            <span class="price-tag">From ₹65/sq.ft</span>
+          </div>
+        </div>
+        <div class="gallery-tile">
+          <img src="https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?w=500&q=80" alt="Wall Tiles">
+          <div class="tile-details">
+            <h5>Wall Tiles</h5>
+            <p>300x450mm</p>
+            <span class="price-tag">From ₹28/sq.ft</span>
+          </div>
+        </div>
+        <div class="gallery-tile">
+          <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=500&q=80" alt="Designer">
+          <div class="tile-details">
+            <h5>Designer Tiles</h5>
+            <p>300x600mm</p>
+            <span class="price-tag">From ₹55/sq.ft</span>
+          </div>
+        </div>
+        <div class="gallery-tile large">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Italian Marble">
+          <div class="tile-details">
+            <h5>Italian Marble</h5>
+            <p>Premium Collection</p>
+            <span class="price-tag">From ₹180/sq.ft</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <div class="products-container">
+      <div class="section-header">
+        <h3>Our Product Range</h3>
+        <p>Explore our wide variety of premium building materials and hardware</p>
+      </div>
+      
+      <div class="filter-tabs">
+        <button class="filter-tab active" onclick="filterProducts('All')">All Products</button>
+        <button class="filter-tab" onclick="filterProducts('Paints')">Paints</button>
+        <button class="filter-tab" onclick="filterProducts('Electrical')">Electrical</button>
+        <button class="filter-tab" onclick="filterProducts('Plumbing')">Plumbing</button>
+        <button class="filter-tab" onclick="filterProducts('Hardware')">Hardware</button>
+      </div>
+      
+      <div class="product-grid">
+        <div class="product-card" data-category="Paints">
+          <span class="product-badge">Best Seller</span>
+          <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=500&q=80" alt="Asian Paints" class="product-image">
+          <div class="product-info">
+            <h4>Asian Paints Royale</h4>
+            <p>Premium emulsion paint with advanced sheen technology for luxurious finish</p>
+            <div class="product-footer">
+              <button class="buy-button" onclick="window.open('https://www.asianpaints.com', '_blank');">
+                <i class="fas fa-eye"></i> View
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card" data-category="Electrical">
+          <span class="product-badge">New Arrival</span>
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=500&q=80" alt="Electrical Wires" class="product-image">
+          <div class="product-info">
+            <h4>Polycab Wires</h4>
+            <p>High-quality copper electrical wires - FR & FRLS available in all sizes</p>
+            <div class="product-footer">
+              <button class="buy-button" onclick="window.open('https://www.polycab.com', '_blank');">
+                <i class="fas fa-eye"></i> View
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card" data-category="Plumbing">
+          <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=500&q=80" alt="Plumbing Pipes" class="product-image">
+          <div class="product-info">
+            <h4>Ashirvad CPVC Pipes</h4>
+            <p>Premium quality CPVC pipes for hot & cold water with 10-year warranty</p>
+            <div class="product-footer">
+              <button class="buy-button" onclick="window.open('https://www.hindwarehomes.com/ashirvad', '_blank');">
+                <i class="fas fa-eye"></i> View
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card" data-category="Hardware">
+          <span class="product-badge">Top Rated</span>
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80" alt="Door Hardware" class="product-image">
+          <div class="product-info">
+            <h4>Premium Door Locks</h4>
+            <p>Heavy-duty mortise locks with anti-theft technology & modern finish</p>
+            <div class="product-footer">
+              <button class="buy-button" onclick="window.open('https://www.godrejlocks.com', '_blank');">
+                <i class="fas fa-eye"></i> View
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card" data-category="Hardware">
+          <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=500&q=80" alt="Power Tools" class="product-image">
+          <div class="product-info">
+            <h4>Bosch Power Drill</h4>
+            <p>Professional grade cordless drill with LED light & 2 batteries included</p>
+            <div class="product-footer">
+              <button class="buy-button" onclick="window.open('https://www.bosch-home.in', '_blank');">
+                <i class="fas fa-eye"></i> View
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card" data-category="Electrical">
+          <span class="product-badge">Special Offer</span>
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=500&q=80" alt="LED Lights" class="product-image">
+          <div class="product-info">
+            <h4>LED Panel Lights</h4>
+            <p>Energy-efficient LED panels - 18W, cool white with 2-year warranty</p>
+            <div class="product-footer">
+              <button class="buy-button" onclick="window.open('https://www.lighting.philips.co.in', '_blank');">
+                <i class="fas fa-eye"></i> View
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card" data-category="Paints">
+          <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=500&q=80" alt="Berger Paints" class="product-image">
+          <div class="product-info">
+            <h4>Berger Silk Luxury</h4>
+            <p>Washable luxury emulsion with anti-bacterial properties</p>
+            <div class="product-footer">
+              <button class="buy-button" onclick="window.open('https://www.bergerpaints.com', '_blank');">
+                <i class="fas fa-eye"></i> View
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card" data-category="Plumbing">
+          <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=500&q=80" alt="Bathroom Fittings" class="product-image">
+          <div class="product-info">
+            <h4>Chrome Bathroom Set</h4>
+            <p>Complete bathroom fittings set with modern chrome finish</p>
+            <div class="product-footer">
+              <button class="buy-button" onclick="window.open('https://www.hindware.com', '_blank');">
+                <i class="fas fa-eye"></i> View
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card" data-category="Electrical">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80" alt="Switches" class="product-image">
+          <div class="product-info">
+            <h4>Modular Switches</h4>
+            <p>Premium modular switches with elegant design - Pack of 10</p>
+            <div class="product-footer">
+              <button class="buy-button" onclick="window.open('https://www.havells.com', '_blank');">
+                <i class="fas fa-eye"></i> View
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="features-container">
+      <div class="section-header">
+        <h3>Why Choose Us?</h3>
+        <p>Experience the difference with our premium services</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">✅</div>
+          <h4>Quality Assured</h4>
+          <p>100% genuine and certified products from authorized brands with quality guarantee</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🚚</div>
+          <h4>Fast Delivery</h4>
+          <p>Quick and reliable delivery to your doorstep with careful handling</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h4>Best Prices</h4>
+          <p>Competitive prices with amazing deals and bulk order discounts</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h4>Full Warranty</h4>
+          <p>Complete manufacturer warranty and dedicated after-sales support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="video-section">
+    <div class="video-container">
+      <div class="section-header">
+        <h3>Experience Premium Tiles Collection</h3>
+        <p>Watch how premium tiles transform your space</p>
+      </div>
+      <div class="videos-grid">
+        <div class="video-wrapper">
+          <video autoplay muted loop playsinline>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-wrapper">
+          <video autoplay muted loop playsinline>
+            <source src="v2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-wrapper">
+          <video autoplay muted loop playsinline>
+            <source src="v3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 360 Rotating Image Section -->
+  <section class="rotating-section">
+    <div class="rotating-container">
+      <div class="section-header">
+        <h3>Premium Tiles in 360° View</h3>
+        <p>Experience our exquisite collection</p>
+      </div>
+      <div class="rotating-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=800&q=80" alt="Premium Tiles 360 View" class="rotating-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Tiles & Marbles Section -->
+  <section class="tiles-section" id="tiles">
+    <div class="tiles-container">
+      <div class="section-header">
+        <h3>Premium Tiles & Marbles</h3>
+        <p>Top Quality Brands - Swipe to explore our exclusive collection →</p>
+      </div>
+      <div class="tiles-scroll">
+        <a href="https://www.kajariaceramics.com/" target="_blank" class="tile-card" style="text-decoration: none; color: inherit; cursor: pointer;">
+          <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=500&q=80" alt="Kajaria Tiles" class="tile-image">
+          <div class="tile-info">
+            <h4>Kajaria Tiles</h4>
+            <p>Premium Vitrified & Ceramic Tiles - India's No.1</p>
+            <span class="brand-badge">Premium Brand</span>
+          </div>
+        </a>
+        
+        <a href="https://protongranito.com/" target="_blank" class="tile-card" style="text-decoration: none; color: inherit; cursor: pointer;">
+          <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=500&q=80" alt="Proton Tiles" class="tile-image">
+          <div class="tile-info">
+            <h4>Proton Tiles</h4>
+            <p>Premium Vitrified & Designer Collection</p>
+            <span class="brand-badge">Premium Brand</span>
+          </div>
+        </a>
+        
+        <a href="https://www.somanyceramics.com/" target="_blank" class="tile-card" style="text-decoration: none; color: inherit; cursor: pointer;">
+          <img src="https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?w=500&q=80" alt="Somany Tiles" class="tile-image">
+          <div class="tile-info">
+            <h4>Somany Ceramics</h4>
+            <p>Designer Wall & Floor Tiles Collection</p>
+            <span class="brand-badge">Premium Brand</span>
+          </div>
+        </a>
+        
+        <a href="https://www.rakceramics.com/" target="_blank" class="tile-card" style="text-decoration: none; color: inherit; cursor: pointer;">
+          <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500&q=80" alt="RAK Ceramics" class="tile-image">
+          <div class="tile-info">
+            <h4>RAK Ceramics</h4>
+            <p>Italian Marble Effect & Glazed Tiles</p>
+            <span class="brand-badge">Premium Brand</span>
+          </div>
+        </a>
+        
+        <a href="https://www.orientbell.com/" target="_blank" class="tile-card" style="text-decoration: none; color: inherit; cursor: pointer;">
+          <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=500&q=80" alt="Orientbell Tiles" class="tile-image">
+          <div class="tile-info">
+            <h4>Orientbell Tiles</h4>
+            <p>Modern Designer & Digital Printed Tiles</p>
+            <span class="brand-badge">Premium Brand</span>
+          </div>
+        </a>
+        
+        <a href="https://www.centuryply.com/" target="_blank" class="tile-card" style="text-decoration: none; color: inherit; cursor: pointer;">
+          <img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?w=500&q=80" alt="Century Tiles" class="tile-image">
+          <div class="tile-info">
+            <h4>Century Tiles</h4>
+            <p>Ceramic & Porcelain Tiles - Premium Range</p>
+            <span class="brand-badge">Premium Brand</span>
+          </div>
+        </a>
+        
+        <a href="https://www.mgmarbles.com/" target="_blank" class="tile-card" style="text-decoration: none; color: inherit; cursor: pointer;">
+          <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=500&q=80" alt="Italian Marble" class="tile-image">
+          <div class="tile-info">
+            <h4>Italian Marble</h4>
+            <p>Premium Imported Marble - Luxury Collection</p>
+            <span class="brand-badge">Luxury</span>
+          </div>
+        </a>
+        
+        <a href="https://www.asiangranito.com/" target="_blank" class="tile-card" style="text-decoration: none; color: inherit; cursor: pointer;">
+          <img src="https://images.unsplash.com/photo-1615529328331-f8917597711f?w=500&q=80" alt="Granite Collection" class="tile-image">
+          <div class="tile-info">
+            <h4>Granite Collection</h4>
+            <p>Polished & Matt Finish Granite Tiles</p>
+            <span class="brand-badge">Premium</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="testimonials-container">
+      <div class="section-header">
+        <h3>What Our Customers Say</h3>
+        <p>Read reviews from our satisfied customers</p>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Excellent quality tiles at best prices! The Kajaria tiles I purchased for my home are absolutely stunning. Great service and timely delivery."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RS</div>
+            <div class="author-info">
+              <h5>Rahul Sharma</h5>
+              <p>Verified Customer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Very professional and knowledgeable staff. They helped me choose the right materials for my construction project. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">PK</div>
+            <div class="author-info">
+              <h5>Priya Kumari</h5>
+              <p>Verified Customer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Best hardware store in the area! Genuine products with warranty. I've been buying all my construction materials from here for years."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AV</div>
+            <div class="author-info">
+              <h5>Amit Verma</h5>
+              <p>Verified Customer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="section-header">
+        <h3 style="color: white;">Get In Touch</h3>
+        <p style="color: rgba(255,255,255,0.9);">Visit our store or reach out for any queries</p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h4>Visit Our Store</h4>
+          <p>0, Usrahi, Shivgarh, Saraon<br>Prayagraj, Uttar Pradesh<br>PIN: 212502</p>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+          <h4>Call Us</h4>
+          <p><a href="tel:+919026653257">+91 9026653257</a><br>
+          <a href="tel:+917991653257">+91 7991653257</a><br>
+          Mon-Sun: 9:00 AM - 8:00 PM</p>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <h4>Email Us</h4>
+          <p><a href="mailto:vinodprajapati994500@gmail.com">vinodprajapati994500@gmail.com</a><br>
+          We'll respond within 24 hours</p>
+        </div>
+      </div>
+      
+      <div class="newsletter">
+        <h4>Subscribe to Our Newsletter</h4>
+        <p>Get updates on new products, special offers, and exclusive deals!</p>
+        <form class="newsletter-form" onsubmit="return subscribeNewsletter(event)">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4>About Us</h4>
+          <p>Har Har Mahadev Enterprises is your trusted partner for premium tiles, marble, and hardware solutions. We pride ourselves on quality products and excellent customer service.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/919026653257" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#tiles">Tiles & Marble</a>
+          <a href="#products">Products</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Our Brands</h4>
+          <a href="#">Kajaria Tiles</a>
+          <a href="#">Somany Ceramics</a>
+          <a href="#">Asian Paints</a>
+          <a href="#">Polycab Wires</a>
+          <a href="#">View All Brands</a>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Customer Service</h4>
+          <a href="#">Shipping Policy</a>
+          <a href="#">Return & Exchange</a>
+          <a href="#">Warranty Information</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Har Har Mahadev Enterprises | All Rights Reserved | Made with ❤️ in India</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTopBtn" onclick="scrollToTop()">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
